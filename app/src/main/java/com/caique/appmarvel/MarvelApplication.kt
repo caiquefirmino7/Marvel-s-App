@@ -1,4 +1,9 @@
 package com.caique.appmarvel
 
-class MarvelApplication {
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+@HiltAndroidApp
+class MarvelApplication: Application() {
+
 }
