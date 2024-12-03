@@ -5,7 +5,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import com.caique.appmarvel.databinding.FragmentFavoriteCharacterBinding
 import com.caique.appmarvel.ui.base.BaseFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class FavoriteCharacterFragment :
     BaseFragment<FragmentFavoriteCharacterBinding, FavoriteCharacterViewModel>() {
 
