@@ -12,7 +12,7 @@
         tools:layout="@layout/fragment_details_character">
         <argument
             android:name="character"
-            app:argType="com.caique.appmarvel.data.model.character.CharacterModel" />
+            app:argType="com.caique.appmarvel.data.model.character.ComicModel" />
     </fragment>
     <fragment
         android:id="@+id/favoriteCharacterFragment"

@@ -4,7 +4,7 @@ import com.caique.appmarvel.data.model.ThumbnailModel
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
-data class CharacterModel(
+data class ComicModel(
     @SerializedName("id")
     val id: Int,
     @SerializedName("name")
